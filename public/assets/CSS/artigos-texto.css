@@ -5,8 +5,8 @@ body {
 }
 
 img {
-  display: center;
-  max-width: 500px;
+  display: block;
+  max-width: 100%;
 }
 
 ul {
@@ -26,8 +26,7 @@ h3 {
   margin: 0px;
 }
 
-/* HEADER */
-
+/* Cabecalho */
 header {
   display: grid;
   justify-content: center;
@@ -38,51 +37,36 @@ header a img {
   height: 50px;
 }
 
-/* TEXTO */
-#principal {
+/* CSS do conteudo*/
+
+#artigo {
+  display: grid;
+  justify-items: center;
+}
+
+h1 {
+  font-family: "Lora", serif;
+  font-weight: bold;
+  color: #00202e;
   margin-top: 55px;
   display: grid;
   justify-content: center;
   text-align: center;
-  gap: 20px;
+  margin-bottom: 40px;
 }
 
-#principal h1 {
-  font-family: "Lora", serif;
-  font-weight: bold;
-  max-width: 1200px;
-  color: #00202e;
+img {
+  max-width: 1600px;
+  max-height: 500px;
 }
 
-#principal h2 {
-  font-family: "PT Serif", serif;
-  max-width: 1200px;
-  font-size: 20px;
-  opacity: 0.75;
-}
-
-#foto {
-  width: 1200px;
-  height: 400px;
-}
-
-#texto {
-  display: grid;
-  justify-content: center;
-  gap: 10px;
-}
-
-#texto p {
-  font-family: "PT Serif", serif;
-  max-width: 1200px;
+p {
   line-height: 1.7;
   font-size: 1.1rem;
-  text-align: left;
-}
-
-#tema,
-#autor {
-  color: #023e8a;
+  color: black;
+  margin-top: 20px;
+  font-family: "PT Serif", serif;
+max-width: 1120px;
 }
 
 /* COMENTARIO */
