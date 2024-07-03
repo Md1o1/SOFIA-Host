@@ -353,6 +353,11 @@ main {
   padding: 10px;
 }
 
+#categorias-opcoes{
+  display: grid;
+ gap: 10px;
+}
+
 .item {
   background-color: white;
   border-radius: 25px;
@@ -453,6 +458,20 @@ main {
   margin-top: 15px;
   font-family: "PT Serif", serif;
   font-size: 1.2rem;
+}
+
+@media (max-width: 900px) {
+  main {
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+  }
+  #busca {
+    grid-row: 1;
+    /* display: grid;
+    justify-self: center; */
+    margin-right: 0px;
+  }
 }
 
 /* Footer */
