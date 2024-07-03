@@ -41,7 +41,7 @@ header img {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-top: 100px;
+  margin-top: 40px;
   max-width: 500px;
   margin-bottom: 20px;
 }
@@ -126,7 +126,6 @@ button:hover {
 @media (max-width: 700px) {
   .container {
     max-width: 400px;
-    margin-top: 60px;
   }
 }
 
